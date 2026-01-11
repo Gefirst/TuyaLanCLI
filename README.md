@@ -102,7 +102,12 @@ import (
 
 func main() {
 	device := tuya.CreateDevice("IP", "DEVICEID", "KEY", tuya.Version_3_3)
-	state := device.GetCurrentStatus() // TODO
+	if err := device.Connect(); err != nil {
+		panic(err)
+	}
+	defer device.Disconnect()
+
+	state := device.GetCurrentStatus() // TODO: Check which values you need
 	fmt.Println("Current state:", state)
 }
 ```
