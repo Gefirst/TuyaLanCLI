@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Binozo/GoTuya/pkg/ac"
+	"github.com/Gefest/TuyaLanCLI/pkg/ac"
 	"time"
 )
 

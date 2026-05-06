@@ -1,6 +1,6 @@
 package ac
 
-import "github.com/Binozo/GoTuya/pkg/tuya"
+import "github.com/Gefest/TuyaLanCLI/pkg/tuya"
 
 type AC struct {
 	*tuya.Device
