@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"encoding/json"
 	"fmt"
-	"github.com/Gefest/TuyaLanCLI/internal/commands"
-	"github.com/Gefest/TuyaLanCLI/internal/parser"
+	"github.com/Binozo/GoTuya/internal/commands"
+	"github.com/Binozo/GoTuya/internal/parser"
 	"time"
 )
 
