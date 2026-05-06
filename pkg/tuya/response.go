@@ -1,6 +1,6 @@
 package tuya
 
-import "github.com/Binozo/GoTuya/internal/commands"
+import "github.com/Gefist/TuyaLanCLI/internal/commands"
 
 type response struct {
 	payload

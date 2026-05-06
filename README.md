@@ -20,7 +20,7 @@ If this package breaks I will fix it :)
 ## Quickstart
 ### Install the Package:
 ```bash
-$ go get -u github.com/Binozo/GoTuya
+$ go get -u github.com/Gefist/TuyaLanCLI
 ```
 
 ### Setup your Tuya Device
@@ -39,7 +39,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Binozo/GoTuya/pkg/ac"
+	"github.com/Gefist/TuyaLanCLI/pkg/ac"
 	"time"
 )
 
@@ -97,7 +97,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Binozo/GoTuya/pkg/tuya"
+	"github.com/Gefist/TuyaLanCLI/pkg/tuya"
 )
 
 func main() {

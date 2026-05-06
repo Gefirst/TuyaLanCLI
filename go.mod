@@ -1,3 +1,3 @@
-module github.com/Binozo/GoTuya
+module github.com/Gefist/TuyaLanCLI
 
 go 1.22
